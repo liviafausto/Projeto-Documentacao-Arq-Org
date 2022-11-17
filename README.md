@@ -48,28 +48,13 @@ A instrução load é do tipo direto e tem como objetivo carregar um valor para 
 #### &nbsp; &nbsp; &nbsp; **1.2 - Parâmetros**
 Os parâmetros são o registrador destino e o endereço de memória que você deseja carregar no registrador, no formato:
 
-<pre>load identificadorDoRegistrador, endereçoNaMemória</pre>
+```asm
+load identificadorDoRegistrador, endereçoNaMemória
+```
 
 <br>
 
 #### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
-
-<br>
-
-<pre>
-<span id="instrucao">load</span> <span id="parametro">R0, posAntNave</span>
-</pre>
-
-<style>
-
-  #instrucao {
-    color: red;
-    font-weight: bold;
-  }
-
-  #parametro {
-    color: cyan;
-  }
-
-</style>
-
+```asm
+loadR0, posAntNave
+```
