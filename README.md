@@ -56,5 +56,30 @@ load identificadorDoRegistrador, endereçoNaMemória
 
 #### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
 ```asm
-loadR0, posAntNave
+static meuDado, #10
+load R0, meuDado ;O registrador R0 recebe o endereço de meuDado
 ```
+
+### **`2. Loadn`**
+
+#### &nbsp; &nbsp; &nbsp; **1.1 - Descrição**
+A instrução loadn é do tipo imediato e tem como objetivo carregar um valor para um registrador. A instrução loadn é composta por um registrador destino e um valor imediato.
+
+<br>
+
+#### &nbsp; &nbsp; &nbsp; **1.2 - Parâmetros**
+Os parâmetros são o endereço de memória destino e o registrador de origem que você deseja passar o dado para a memória, no formato:
+
+```asm
+store endereçoNaMemória, identificadorDoRegistrador
+```
+
+<br>
+
+#### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
+```asm
+static meuDado, #10
+store R0, R0 ;O registrador R0 recebe o endereço de meuDado
+```
+A instrução loadn
+
