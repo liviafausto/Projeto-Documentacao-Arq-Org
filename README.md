@@ -54,8 +54,6 @@ Ressaltamos que as "<>" são ilustrativas e não fazem parte da estrutura das in
 
 <br>
 
-## **`Instruções de Manipulação de Dados`**
-
 
 ### **`1. Load`**
 
