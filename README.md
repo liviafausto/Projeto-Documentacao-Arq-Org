@@ -2,19 +2,13 @@
 
 <br>
 
-## Descrição
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at porttitor odio. Maecenas orci massa, viverra vel elit eget, feugiat mollis quam.
-
-<br>
-
 ## Como ler essse Guia
 
 Nesse guia, você encontrará as instruções do processador do ICMC. Cada instrução é descrita em uma seção separada, contendo uma descrição da instrução, os parâmetros da instrução, os códigos de operação e um exemplo de uso com código comentado.
 
 É importante ressaltar que a leitura desse guia não é obrigatória para o desenvolvimento de programas para o processador do ICMC. O guia foi criado para auxiliar os alunos que desejam entender o funcionamento do processador do ICMC.
 
-Apesar disso, é recomendado que os alunos leiam esse guia para entender como o processador funciona e como os programas são executados.
+Apesar disso, é recomendado que os alunos leiam esse guia para entender como as instruções do processador funcionam.
 
 A recomendação é que a leitura das instruções seja feita de forma sequencial. Porém, caso você queira saber mais sobre uma instrução específica, você pode pular para a seção da instrução desejada.
 
@@ -31,6 +25,18 @@ A recomendação do professor responsável pelo projeto é que o usuário desse 
 ## Instalação do Processador
 
 Para instalar o simulador, você deve seguir os seguintes passos:
+
+Caso seja usuário de Windows, você deve baixar o arquivo nesse link e seguir as instruções:
+
+INSTRUÇÕES AQUI
+
+
+
+Caso seja usuário de Linux, você deve baixar o arquivo nesse link e seguir as instruções:
+
+INSTRUÇÕES AQUI
+
+
 
 
 <br>
@@ -63,7 +69,7 @@ load R0, meuDado ;O registrador R0 recebe o endereço de meuDado
 ### **`2. Loadn`**
 
 #### &nbsp; &nbsp; &nbsp; **1.1 - Descrição**
-A instrução loadn é do tipo imediato e tem como objetivo carregar um valor para um registrador. A instrução loadn é composta por um registrador destino e um valor imediato.
+A instrução loadn é do tipo imediato e tem como objetivo carregar um valor numérico para um registrador. A instrução loadn é composta por um registrador destino e um valor numérico.
 
 <br>
 
@@ -71,15 +77,12 @@ A instrução loadn é do tipo imediato e tem como objetivo carregar um valor pa
 Os parâmetros são o endereço de memória destino e o registrador de origem que você deseja passar o dado para a memória, no formato:
 
 ```asm
-store endereçoNaMemória, identificadorDoRegistrador
+loadn identificadorDoRegistrador, #valorNumerico
 ```
 
 <br>
 
 #### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
 ```asm
-static meuDado, #10
-store R0, R0 ;O registrador R0 recebe o endereço de meuDado
+loadn R1, #10 ;O registrador R1 recebe o valor 10.
 ```
-A instrução loadn
-
