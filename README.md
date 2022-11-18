@@ -4,7 +4,7 @@
 
 ## Como ler essse Guia
 
-Nesse guia, você encontrará as instruções do processador do ICMC. Cada instrução é descrita em uma seção separada, contendo uma descrição da instrução, os parâmetros da instrução, os códigos de operação e um exemplo de uso com código comentado.
+Nesse guia, você encontrará as instruções do processador do ICMC. Cada instrução é detalhada em uma seção separada, contendo uma descrição da instrução, os parâmetros da instrução, os códigos de operação e um exemplo de uso com código comentado.
 
 É importante ressaltar que a leitura desse guia não é obrigatória para o desenvolvimento de programas para o processador do ICMC. O guia foi criado para auxiliar os alunos que desejam entender o funcionamento do processador do ICMC.
 
@@ -16,7 +16,7 @@ A recomendação é que a leitura das instruções seja feita de forma sequencia
 
 ## Suposições de nível de conhecimento
 
-Para entender esse guia, você deve ter conhecimento básico de programação, preferencialmente em C. Além disso, você deve ter conhecimento básico de arquitetura de computadores.
+Para entender esse guia, você deve ter conhecimento básico de programação, preferencialmente em C ou em outra linguagem que permite manipulação da memória em nível mais baixo. Além disso, você deve ter conhecimento básico de arquitetura de computadores.
 
 A recomendação do professor responsável pelo projeto é que o usuário desse guia tenha conhecimento igual ou superior ao equivalente da UNIDADE X DO `livro`.
 
@@ -38,6 +38,19 @@ INSTRUÇÕES AQUI
 
 
 
+
+<br>
+
+## **`Instruções de Manipulação de Dados`**
+<br>
+
+### Padrão geral das instruções de manipulação de dados:
+
+Apesar de parecer complicado, especialmente para aqueles que estão ambientados com linguagens de programação de alto nível, existe um padrão lógico nas instruções que consideramos importante que o usuário entenda. A seguir, apresentamos esse padrão.
+
+`<nome da instrução> <destino da instrução>, <origem da instrução>`
+
+Ressaltamos que as "<>" são ilustrativas e não fazem parte da estrutura das instruções.
 
 <br>
 
@@ -65,6 +78,7 @@ load identificadorDoRegistrador, endereçoNaMemória
 static meuDado, #10
 load R0, meuDado ;O registrador R0 recebe o endereço de meuDado
 ```
+<br>
 
 ### **`2. Loadn`**
 
