@@ -62,7 +62,7 @@ Ressaltamos que as "<>" são ilustrativas e não fazem parte da estrutura das in
 #### &nbsp; &nbsp; &nbsp; **1.1 - Descrição**
 A instrução load é do tipo direto e tem como objetivo carregar um valor para um registrador. A instrução load é composta por um registrador destino e um endereço de memória.
 
-<br>
+
 
 #### &nbsp; &nbsp; &nbsp; **1.2 - Parâmetros**
 Os parâmetros são o registrador destino e o endereço de memória que você deseja carregar no registrador, no formato:
@@ -71,7 +71,6 @@ Os parâmetros são o registrador destino e o endereço de memória que você de
 load identificadorDoRegistrador, endereçoNaMemória
 ```
 
-<br>
 
 #### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
 ```asm
@@ -85,7 +84,7 @@ load R0, meuDado ;O registrador R0 recebe o endereço de meuDado
 #### &nbsp; &nbsp; &nbsp; **1.1 - Descrição**
 A instrução loadn é do tipo imediato e tem como objetivo carregar um valor numérico para um registrador. A instrução loadn é composta por um registrador destino e um valor numérico.
 
-<br>
+
 
 #### &nbsp; &nbsp; &nbsp; **1.2 - Parâmetros**
 Os parâmetros são o endereço de memória destino e o registrador de origem que você deseja passar o dado para a memória, no formato:
@@ -94,7 +93,7 @@ Os parâmetros são o endereço de memória destino e o registrador de origem qu
 loadn identificadorDoRegistrador, #valorNumerico
 ```
 
-<br>
+
 
 #### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
 ```asm
