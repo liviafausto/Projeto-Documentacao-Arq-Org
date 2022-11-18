@@ -43,6 +43,6 @@ INSTRUÇÕES AQUI
 
 ## Sumário
 
-### [Instruções de Manipulação de Dados](manipulacao_de_dados.md)
+### [Instruções de Manipulação de Dados](/instrucoes/manipulacao_de_dados.md)
 1. Load
 2. Loadn
