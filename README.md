@@ -41,6 +41,12 @@ INSTRUÇÕES AQUI
 
 <br>
 
+## Teste de Sumário
+
+### Instruções de Manipulação de Dados
+
+<br>
+
 ## **`Instruções de Manipulação de Dados`**
 
 ### Padrão geral das instruções de manipulação de dados:
