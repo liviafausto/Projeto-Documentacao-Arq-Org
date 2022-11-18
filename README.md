@@ -42,7 +42,6 @@ INSTRUÇÕES AQUI
 <br>
 
 ## **`Instruções de Manipulação de Dados`**
-<br>
 
 ### Padrão geral das instruções de manipulação de dados:
 
