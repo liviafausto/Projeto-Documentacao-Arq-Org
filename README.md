@@ -46,3 +46,5 @@ INSTRUÇÕES AQUI
 ### [**` Instruções de Manipulação de Dados`**](/instrucoes/manipulacao_de_dados.md)
 1. Load
 2. Loadn
+
+### [**`Instruções Aritméticas`**](/instrucoes/aritmeticas.md)
