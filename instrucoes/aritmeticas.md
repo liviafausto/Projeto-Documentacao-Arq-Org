@@ -1,3 +1,3 @@
 ## **`Instruções Aritméticas`**
 
-### Padrão geral das instruções aritiméticas:
+### Padrão geral das instruções aritméticas:
