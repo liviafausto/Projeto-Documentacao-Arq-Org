@@ -74,7 +74,7 @@ Isso significa que o *"pos"* permite acessar qualquer posição apontada pelo r�
 Os parâmetros desse operador são o static, o label  que aponta para o endereço inicial da memória reservada, a posição (pos) que você deseja alterar e o número(num) que você deseja inserir na posição.
 
 ```asm
-<label> + #<pos>, #< num>
+<label> + #<pos>, #<num>
 ```
 
 &nbsp; &nbsp; &nbsp; **3.3 Usando a instrução:**
