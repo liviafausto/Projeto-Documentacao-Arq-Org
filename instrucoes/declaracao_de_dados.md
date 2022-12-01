@@ -2,7 +2,12 @@
 
 <br>
 
-1. ### Tipos de dados:  Numérico sem sinal, Char e String
+1. ### Tipos de dados:  
+    &nbsp; &nbsp; &nbsp; **1.1 Numérico sem sinal** 
+
+    &nbsp; &nbsp; &nbsp; **1.2 Char**
+    
+    &nbsp; &nbsp; &nbsp; **1.3 String**
 
 <br>
 
