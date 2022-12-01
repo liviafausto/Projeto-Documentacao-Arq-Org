@@ -6,23 +6,23 @@
     &nbsp; &nbsp; &nbsp; **1.1 Numérico sem sinal** 
 
     &nbsp; &nbsp; &nbsp; **1.2 Char**
-    
+
     &nbsp; &nbsp; &nbsp; **1.3 String**
 
 <br>
 
 2. ### Tamanho dos dados: 
     
-    &nbsp; &nbsp; &nbsp; **1.1 Inteiro sem sinal:** NÃO VI AINDA
+    &nbsp; &nbsp; &nbsp; **2.1 Inteiro sem sinal:** NÃO VI AINDA
 
     
     > Importante ressaltar que **NÃO há float ou double nativamente.**
     
    
-    &nbsp; &nbsp; &nbsp; **1.2 Caractere:** 16 bits.
+    &nbsp; &nbsp; &nbsp; **2.2 Caractere:** 16 bits.
     
 
-    &nbsp; &nbsp; &nbsp; **1.3 String:** 16 bits por posição + 16 bits para o '\0'.
+    &nbsp; &nbsp; &nbsp; **2.3 String:** 16 bits por posição + 16 bits para o '\0'.
 
 
 <br>
