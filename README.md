@@ -43,6 +43,11 @@ INSTRUÇÕES AQUI
 
 ## Sumário
 
+### [**`Declaração de Dados na Memória`**](/instrucoes/declaracao_de_dados.md)
+1. Inteiro sem sinal
+2. Char
+2. String
+
 ### [**` Instruções de Manipulação de Dados`**](/instrucoes/manipulacao_de_dados.md)
 1. Load
 2. Loadn

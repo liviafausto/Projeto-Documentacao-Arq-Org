@@ -1,12 +1,16 @@
 ## **`Instruções de Manipulação de Dados`**
 
-### Padrão geral das instruções de manipulação de dados:
+<br>
+
+### **Padrão geral das instruções de manipulação de dados:**
 
 Apesar de parecer complicado, especialmente para aqueles que estão ambientados com linguagens de programação de alto nível, existe um padrão lógico nas instruções que consideramos importante que o usuário entenda. A seguir, apresentamos esse padrão.
 
 `<nome da instrução> <destino da instrução>, <origem da instrução>`
 
-Ressaltamos que as "<>" são ilustrativas e não fazem parte da estrutura das instruções.
+
+> Ressaltamos que as "<>" são ilustrativas e não fazem parte da estrutura das instruções. 
+
 
 <br>
 
