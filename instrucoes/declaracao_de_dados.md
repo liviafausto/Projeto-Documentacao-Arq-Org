@@ -40,7 +40,7 @@ label:
 
 <br>
 
-### **`2. var`**
+### **`2. Var`**
 
 &nbsp; &nbsp; &nbsp; **2.1 Descrição:**
 
@@ -59,9 +59,10 @@ label: var #<num>
  ```asm
  minhaVar: var #20 ; reserva 20 posições de 16 bits na memória, sendo que o rótulo "minhaVar" aponta para a primeira posição
  ```
+
 <br> 
 
-### **`3. static`**
+### **`3. Static`**
 
 &nbsp; &nbsp; &nbsp; **3.1 Descrição:**
 Operador para preencher a memória na posição apontada por *label*, mas em uma posição específica do espaço alocado na memória - aqui chamado de  *"pos"* - com um número *num* - o qual deve ser inteiro e sem sinal.
@@ -72,7 +73,9 @@ Isso significa que o *"pos"* permite acessar qualquer posição apontada pelo r�
 
 Os parâmetros desse operador são o static, o label  que aponta para o endereço inicial da memória reservada, a posição (pos) que você deseja alterar e o número(num) que você deseja inserir na posição.
 
-> <label>  + #<pos>, #< num>
+```asm
+<label> + #<pos>, #< num>
+```
 
 &nbsp; &nbsp; &nbsp; **3.3 Usando a instrução:**
 
@@ -92,9 +95,12 @@ Preenche as posições de memória alocadas com os códigos ASCII da string, sen
 
 &nbsp; &nbsp; &nbsp;**4.2 Parâmetros:**
 
-Os parâmetros desse operador são o label, que aponta para o endereço inicial da memória reservada, operador string , a string - sequência de caractéres - que você deseja alocar na memória
+Os parâmetros desse operador são o label, que aponta para o endereço inicial da memória reservada, operador string , a string - sequência de caractéres - que você deseja alocar na memória.
 
-> <label>: string "<caracteres>"
+```asm
+<label>: string "<caracteres>"
+```
+
 
 &nbsp; &nbsp; &nbsp; **4.3 Usando a instrução:**
 
