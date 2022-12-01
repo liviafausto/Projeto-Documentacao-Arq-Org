@@ -2,7 +2,7 @@
 
 <br>
 
-1. ### Tipos de dados:  
+1. ### **`Tipos de dados:`**  
     &nbsp; &nbsp; &nbsp; **1.1 Numérico sem sinal** 
 
     &nbsp; &nbsp; &nbsp; **1.2 Char**
@@ -11,7 +11,7 @@
 
 <br>
 
-2. ### Tamanho dos dados: 
+2. ### **`Tamanho dos dados:`** 
     
     &nbsp; &nbsp; &nbsp; **2.1 Inteiro sem sinal:** NÃO VI AINDA
 
