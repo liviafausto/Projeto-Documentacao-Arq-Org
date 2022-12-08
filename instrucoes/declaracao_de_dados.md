@@ -111,7 +111,8 @@ Os parâmetros desse operador são o label, que aponta para o endereço inicial 
 &nbsp; &nbsp; &nbsp; **4.3 Usando a instrução:**
 
  ```asm
- mensagem: string "Exemplo" ;aloca 8 posições de memória ao todo: 7 para todas as letras e mais 1 para '\0' no final. O rótulo "mensagem" aponta para o primeiro caracter da string.
+ mensagem: string "Exemplo" ;aloca 8 posições de memória ao todo: 7 para todas as letras e mais 1 para '\0' no final. 
+;O rótulo "mensagem" aponta para o primeiro caracter da string.
  ```
 <br> 
 
