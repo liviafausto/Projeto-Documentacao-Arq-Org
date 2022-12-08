@@ -87,6 +87,7 @@ Os parâmetros desse operador são o static, o label  que aponta para o endereç
  ```asm
  static minhaVar #0, #5  ;preenche a primeira posição apontada pelo rótulo "minhaVar" com o número 5
  static minhaVar #1, #8  ;preenche a segunda posição apontada pelo rótulo "minhaVar" com o número 8
+ static minhaVar #2, #'a'  ;preenche a terceira posição apontada pelo rótulo "minhaVar" com o char "a"
  ```
 <br> 
 
@@ -110,7 +111,7 @@ Os parâmetros desse operador são o label, que aponta para o endereço inicial 
 &nbsp; &nbsp; &nbsp; **4.3 Usando a instrução:**
 
  ```asm
- mensagem: string "Organizacao ;aloca 12 posições de memória ao todo: 11 para todas as letras e mais 1 para '\0' no final. O rótulo "mensagem" aponta para o primeiro caracter da string.
+ mensagem: string "Exemplo" ;aloca 8 posições de memória ao todo: 7 para todas as letras e mais 1 para '\0' no final. O rótulo "mensagem" aponta para o primeiro caracter da string.
  ```
 <br> 
 
