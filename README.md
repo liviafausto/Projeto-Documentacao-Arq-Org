@@ -53,3 +53,8 @@ INSTRUÇÕES AQUI
 2. Loadn
 
 ### [**`Instruções Aritméticas`**](/instrucoes/aritmeticas.md)
+1. Inc
+2. Dec
+3. Add
+4. Sub
+
