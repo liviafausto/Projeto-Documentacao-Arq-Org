@@ -58,3 +58,8 @@ INSTRUÇÕES AQUI
 3. Add
 4. Sub
 
+### [**`Insctuções de Salto`**](/instrucoes/intruçõesSalto.md)
+1. JMP
+
+### [**`Insctuções de Chamada`**](/instrucoes/instruçõesChamada.md)
+1. CALL
