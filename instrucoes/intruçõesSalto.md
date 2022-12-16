@@ -5,7 +5,7 @@
 ### **`1. JMP`**
 &nbsp; &nbsp; &nbsp; 	**1.1 Descrição:**
 
- O JUMP é uma instrução que desvia o fluxo do código, alterando a ordem em que as instruções são executadas, podendo ser condicional ou incondicional. Um Jump incondicional é usado na forma JMP ,já o jump incodicional assume a forma J??, em que no local da interrogação se colocar outras letras a fim de determinar uma execução específica 
+ O JUMP é uma instrução que desvia o fluxo do código, alterando a ordem em que as instruções são executadas, podendo ser condicional ou incondicional. Um Jump incondicional é usado na forma JMP, já o jump condicional assume a forma J??, em que no local da interrogação se colocar outras letras a fim de determinar uma execução específica 
  
 &nbsp; &nbsp; &nbsp; **1.2 Parâmetros:**
 
