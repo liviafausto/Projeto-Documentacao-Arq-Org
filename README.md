@@ -1,5 +1,29 @@
 # Documentação das Instruções do Processador do ICMC
+Participantes:
 
+Amanda Valukas Breviglieri Joioso;
+
+Fernando Mezher Silva Lopes;
+
+João Pedro Dias Melo; 
+
+Laura Fernandes Camargos; 
+
+Livia Fausto Carnio;
+
+Lucas Loureiro Rodrigues; 
+
+Paulo Henrique Vedovatto Turquetti; 
+
+Pedro Augusto Martins Gagini;
+
+Pedro Guilherme Tolvo;
+
+Pedro Henrique Salmaze;
+
+Rafael Garcia Fortunato;
+
+Rafaela Ferreira Lovatti.
 <br>
 
 ## Como ler essse Guia
