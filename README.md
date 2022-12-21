@@ -5,6 +5,8 @@ Amanda Valukas Breviglieri Joioso;
 
 Fernando Mezher Silva Lopes;
 
+Guilherme Henrique Galdini Tosi;
+
 João Pedro Dias Melo; 
 
 Laura Fernandes Camargos; 
@@ -17,9 +19,9 @@ Paulo Henrique Vedovatto Turquetti;
 
 Pedro Augusto Martins Gagini;
 
-Pedro Guilherme Tolvo;
-
 Pedro Henrique Salmaze;
+
+Pedro Santos Souza;
 
 Rafael Garcia Fortunato;
 
