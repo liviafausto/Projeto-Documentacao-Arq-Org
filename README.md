@@ -19,6 +19,8 @@ Paulo Henrique Vedovatto Turquetti;
 
 Pedro Augusto Martins Gagini;
 
+Pedro Guilherme Tolvo;
+
 Pedro Henrique Salmaze;
 
 Pedro Santos Souza;
