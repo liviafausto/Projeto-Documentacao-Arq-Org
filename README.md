@@ -46,7 +46,9 @@ A recomendação é que a leitura das instruções seja feita de forma sequencia
 
 Para entender esse guia, você deve ter conhecimento básico de programação, preferencialmente em C ou em outra linguagem que permite manipulação da memória em nível mais baixo. Além disso, você deve ter conhecimento básico de arquitetura de computadores.
 
-A recomendação do professor responsável pelo projeto é que o usuário desse guia tenha conhecimento igual ou superior ao equivalente da UNIDADE X DO `livro`.
+A recomendação do professor responsável pelo projeto é que o usuário desse guia tenha conhecimento igual ou superior ao livro: 
+
+> PATTERSON, D. A., HENNESSY, J.L. Computer Organization and Design, Fifth Edition: The Hardware/Software Interface. Morgan Kaufmann Publishers, 2013
 
 <br>
 
