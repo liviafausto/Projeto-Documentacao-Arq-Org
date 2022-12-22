@@ -46,25 +46,15 @@ A recomendação é que a leitura das instruções seja feita de forma sequencia
 
 Para entender esse guia, você deve ter conhecimento básico de programação, preferencialmente em C ou em outra linguagem que permite manipulação da memória em nível mais baixo. Além disso, você deve ter conhecimento básico de arquitetura de computadores.
 
-A recomendação do professor responsável pelo projeto é que o usuário desse guia tenha conhecimento igual ou superior ao livro: 
+A recomendação do professor responsável pelo projeto é que o usuário desse guia tenha conhecimento igual ou superior ao livro:
 
 > PATTERSON, D. A., HENNESSY, J.L. Computer Organization and Design, Fifth Edition: The Hardware/Software Interface. Morgan Kaufmann Publishers, 2013
 
 <br>
 
-## Instalação do Processador
+## Instalação do Simulador do Processador
 
-Para instalar o simulador, você deve seguir os seguintes passos:
-
-Caso seja usuário de Windows, você deve baixar o arquivo nesse link e seguir as instruções:
-
-INSTRUÇÕES AQUI
-
-
-
-Caso seja usuário de Linux, você deve baixar o arquivo nesse link e seguir as instruções:
-
-INSTRUÇÕES AQUI
+Para instalar o simulador e obter orientações, você deve seguir os seguintes passos no GitLab do professor [aqui](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0513-BSI_Organizacao-e-Arquitetura-de-Computadores#simulador-para-programa%C3%A7%C3%A3o-em-assembly) no tópico que esse link leva (Simulador para programação em Assembly).
 
 
 
