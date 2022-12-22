@@ -13,7 +13,7 @@
 
 2. ### **`Tamanho dos dados:`** 
     
-    &nbsp; &nbsp; &nbsp; **2.1 Inteiro sem sinal:** NÃO VI AINDA
+    &nbsp; &nbsp; &nbsp; **2.1 Inteiro sem sinal:** 16 bits.
 
     
     > Importante ressaltar que **NÃO há float ou double nativamente.**
