@@ -54,7 +54,9 @@ A recomendação do professor responsável pelo projeto é que o usuário desse 
 
 ## Instalação do Simulador do Processador
 
-Para instalar o simulador e obter orientações, você deve seguir os seguintes passos no GitLab do professor [aqui](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0513-BSI_Organizacao-e-Arquitetura-de-Computadores#simulador-para-programa%C3%A7%C3%A3o-em-assembly) no tópico que esse link leva (Simulador para programação em Assembly).
+Para instalar o simulador e obter orientações, você deve seguir os seguintes passos no GitLab do professor [aqui](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0513-BSI_Organizacao-e-Arquitetura-de-Computadores#simulador-para-programa%C3%A7%C3%A3o-em-assembly).
+
+O tópico com as instruções já é aberto automaticamente no link, mas caso aconteça algum problema, o nome do tópico é: Simulador para programação em Assembly.
 
 
 
