@@ -79,6 +79,8 @@ O tópico com as instruções já é aberto automaticamente no link, mas caso ac
 2. Dec
 3. Add
 4. Sub
+5. Div
+6. Mul
 
 ### [**`Insctuções de Salto`**](/instrucoes/intruçõesSalto.md)
 1. JMP
