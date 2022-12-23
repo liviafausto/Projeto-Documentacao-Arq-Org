@@ -105,7 +105,7 @@ sub r0, r0, r1 ; atribui o valor da subtração r0 - r1 ao registrador r0
 
 &nbsp; &nbsp; &nbsp; **5.1 Descrição:**
 
-A instrução div é usada para divisão binária de dados em 8-bit, 16-bi ou 32-bit.
+A instrução div é usada para divisão binária de dados em 8-bit, 16-bit ou 32-bit.
 
 &nbsp; &nbsp; &nbsp;**5.2 Parâmetros:**
 
