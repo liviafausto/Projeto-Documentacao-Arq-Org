@@ -98,3 +98,53 @@ sub r0, r0, r1 ; atribui o valor da subtração r0 - r1 ao registrador r0
 ```
 
 <br>
+
+<br> 
+
+### **`5. DIV`**
+
+&nbsp; &nbsp; &nbsp; **5.1 Descrição:**
+
+A instrução div é usada para divisão binária de dados em 8-bit, 16-bi ou 32-bit.
+
+&nbsp; &nbsp; &nbsp;**5.2 Parâmetros:**
+
+Os parâmetros desse operador são a instrução (div), registrador destino, dividendo e divisor.
+
+```asm
+div destino, dividendo, divisor
+```
+> A operação div pode alterar as **flags de overflow.**
+
+&nbsp; &nbsp; &nbsp; **5.3 Usando a instrução:**
+
+ ```asm
+div r0, r0, r1 ; atribui o valor da divisão r0 ÷ r1 ao registrador r0
+```
+
+<br>
+
+<br> 
+
+### **`6. MUL`**
+
+&nbsp; &nbsp; &nbsp; **6.1 Descrição:**
+
+A instrução mul é usada para multiplicação binária de dados em 8-bit, 16-bit ou 32-bit.
+
+&nbsp; &nbsp; &nbsp;**6.2 Parâmetros:**
+
+Os parâmetros desse operador são a instrução (mul), registrador destino, multiplicando e multiplicador.
+
+```asm
+mul destino, multiplicando, multiplicador
+```
+> A operação mul pode alterar as **flags de carry e overflow.**
+
+&nbsp; &nbsp; &nbsp; **6.3 Usando a instrução:**
+
+ ```asm
+mul r0, r0, r1 ; atribui o valor da multiplicação r0 * r1 ao registrador r0
+```
+> Caso queira a exponenciação da base r0 ao expoente n, sendo n inteiro positivo, basta escrever n vezes: **mul r0, r0, r0**.
+<br>
