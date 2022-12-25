@@ -146,5 +146,5 @@ mul destino, multiplicando, multiplicador
  ```asm
 mul r0, r0, r1 ; atribui o valor da multiplicação r0 * r1 ao registrador r0
 ```
-> Caso queira a exponenciação da base r0 ao expoente n, sendo n inteiro positivo, basta escrever n-1 vezes: **mul r0, r0, r0**.
+> Caso queira a exponenciação da base r0 ao expoente n, sendo n inteiro positivo e maior que 1, basta escrever n-1 vezes: **mul r0, r0, r0**.
 <br>
