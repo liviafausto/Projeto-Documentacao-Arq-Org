@@ -73,6 +73,10 @@ O tópico com as instruções já é aberto automaticamente no link, mas caso ac
 ### [**`Instruções de Manipulação de Dados`**](/instrucoes/manipulacao_de_dados.md)
 1. Load
 2. Loadn
+3. Loadi
+4. Store
+5. Storei
+6. MOV
 
 ### [**`Instruções Aritméticas`**](/instrucoes/aritmeticas.md)
 1. Inc
