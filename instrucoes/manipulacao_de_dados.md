@@ -37,26 +37,7 @@ load R0, meuDado ;O registrador R0 recebe o endereço de meuDado
 ```
 <br>
 
-### **`2. Loadn`**
 
-#### &nbsp; &nbsp; &nbsp; **1.1 - Descrição**
-A instrução loadn é do tipo imediato e tem como objetivo carregar um valor numérico para um registrador. A instrução loadn é composta por um registrador destino e um valor numérico.
-
-
-
-#### &nbsp; &nbsp; &nbsp; **1.2 - Parâmetros**
-Os parâmetros são o endereço de memória destino e o registrador de origem que você deseja passar o dado para a memória, no formato:
-
-```asm
-loadn identificadorDoRegistrador, #valorNumerico
-```
-
-
-
-#### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
-```asm
-loadn R1, #10 ;O registrador R1 recebe o valor 10.
-```
 
 ### **`2. Loadn`**
 
@@ -105,7 +86,7 @@ A instrução storei é do tipo indireto por registrador e tem como objetivo arm
 #### &nbsp; &nbsp; &nbsp; **5.2 - Parâmetros**
 Os parâmetros são um registrador R2 com um conteúdo que será armazenado na memória que R1 aponta, no formato:
 ```asm
-store IdentificadorDoRegistradorApontador, IdentificadorDoRegistradorConteudo
+storei IdentificadorDoRegistradorApontador, IdentificadorDoRegistradorConteudo
 ```
 #### &nbsp; &nbsp; &nbsp; **5.3 - Usando a instrução**
 ```asm
@@ -119,17 +100,17 @@ A instrução mov é do tipo movimentação e tem como objetivo mover os dados e
 ##### &nbsp; &nbsp; &nbsp; &nbsp; **6.2.1 – De registrador para registrador**
 Os parâmetros são o registrador de destino e o registrador de origem em que será  movido o conteúdo, no formato:
 ```asm
-loadi identificadorDoRegistradorDestino, identificadorDoRegistradorOrigem
+mov identificadorDoRegistradorDestino, identificadorDoRegistradorOrigem
 ```
 ##### &nbsp; &nbsp; &nbsp; &nbsp; **6.2.2 – De registrador para Ponteiro de pilha**
 Os parâmetros são o registrador de origem e o Ponteiro de pilha, no formato:
 ```asm
-loadi SP, identificadorDoRegistradorOrigem
+mov SP, identificadorDoRegistradorOrigem
 ```
 ##### &nbsp; &nbsp; &nbsp; &nbsp; **6.2.3 – De Ponteiro de pilha para registrador**
 Os parâmetros são o Ponteiro de pilha e o registrador de origem, no formato:
 ```asm
-loadi identificadorDoRegistradorDestino, SP
+mov identificadorDoRegistradorDestino, SP
 ```
 #### &nbsp; &nbsp; &nbsp; **6.3 - Usando a instrução**
 ##### &nbsp; &nbsp; &nbsp; &nbsp; **6.3.1 – De registrador para registrador**
