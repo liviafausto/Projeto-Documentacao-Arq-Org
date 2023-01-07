@@ -32,7 +32,8 @@ load identificadorDoRegistrador, endereçoNaMemória
 
 #### &nbsp; &nbsp; &nbsp; **1.3 - Usando a instrução**
 ```asm
-static meuDado, #10
+meuDado: var #10 ;Declaração de uma variável meuDado
+static meuDado #0, #10 ;Primeira posição da variável recebe o valor 10
 load R0, meuDado ;O registrador R0 recebe o endereço de meuDado
 ```
 <br>
@@ -58,7 +59,7 @@ loadn R1, #10 			;O registrador R1 recebe o valor 10.
 
 ### **`3. Loadi`**
 #### &nbsp; &nbsp; &nbsp; **3.1 - Descrição**
-A instrução loadi é do tipo indireto por registrador e tem como objetivo carregar o conteúdo da memória apontada pelo conteúdo d registrador R2 para o registrador R1. A instrução loadi é composta por um registrador destino e um registrador de origem. 
+A instrução loadi é do tipo indireto por registrador e tem como objetivo carregar o conteúdo da memória apontada pelo conteúdo do registrador R2 para o registrador R1. A instrução loadi é composta por um registrador destino e um registrador de origem. 
 #### &nbsp; &nbsp; &nbsp; **3.2 - Parâmetros**
 Os parâmetros são o registrador de destino e o registrador de origem que você deseja passar o endereço de memória apontado, no formato:
 ```asm
