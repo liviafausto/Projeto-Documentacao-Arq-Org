@@ -54,6 +54,8 @@ loadn identificadorDoRegistrador, #valorNumerico
 loadn R1, #10 			;O registrador R1 recebe o valor 10.
 ```
 
+<br>
+
 ### **`3. Loadi`**
 #### &nbsp; &nbsp; &nbsp; **3.1 - Descrição**
 A instrução loadi é do tipo indireto por registrador e tem como objetivo carregar o conteúdo da memória apontada pelo conteúdo d registrador R2 para o registrador R1. A instrução loadi é composta por um registrador destino e um registrador de origem. 
@@ -66,6 +68,7 @@ loadi identificadorDoRegistradorDestino, identificadorDoRegistradorOrigem
 ```asm
 loadi R1, R2 	;O registrador R1 recebe o conteúdo do endereço de memória apontado por R2.
 ```
+<br>
 
 ### **`4. Store`**
 #### &nbsp; &nbsp; &nbsp; **4.1 - Descrição**
@@ -79,6 +82,7 @@ store EndereçoDaMemoria, IdentificadorDoRegistradorOrigem
 ```asm
 store END, R1 ;O endereço END recebe o valor contido no registrador R1.
 ```
+<br>
 
 ### **`5. Storei`**
 #### &nbsp; &nbsp; &nbsp; **5.1 - Descrição**
@@ -92,6 +96,7 @@ storei IdentificadorDoRegistradorApontador, IdentificadorDoRegistradorConteudo
 ```asm
 storei R1, R2 ;O endereço apontado por R1 recebe o valor contido no registrador R2.
 ```
+<br>
 
 ### **`6. MOV`**
 #### &nbsp; &nbsp; &nbsp; **6.1 - Descrição**
